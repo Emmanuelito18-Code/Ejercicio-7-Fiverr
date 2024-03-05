@@ -134,3 +134,5 @@ public class Edificio {
         }
     }
 }
+//ya está terminado el programa?
+//este si pero esta el eror que no puedo quitarlo el 7 ya esta tambien 
