@@ -30,9 +30,11 @@ public class Edificio {
             case 3:
                 Modificar(); //llamado de funcion para modificar datos 
                 break;
+            case 4:
+                break;
                 
         }
-    }while(opcion!=3);
+    }while(opcion!=4);
     }
       static void registro() {
      Scanner leer = new Scanner(System.in);
@@ -74,9 +76,14 @@ public class Edificio {
      System.out.println("lista; "+listado);//listado de visitantes actuales 
     }
       static void Eliminar() {
+     System.out.println("¿Cual DNI desea Eliminar? : ");
      
      }
         static void Modificar() {
+     System.out.println("¿Cual DNI desea modificar? : ");
+     
+     System.out.println("Cual dato desea modicicar? : " );
+     System.out.println("N=Nombre; A=Cumpleaños; I=DNI; S=Sexo");
      
       }
 }
