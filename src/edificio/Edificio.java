@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package edificio;
 
 import java.util.ArrayList;
@@ -134,5 +130,3 @@ public class Edificio {
         }
     }
 }
-//ya está terminado el programa?
-//este si pero esta el eror que no puedo quitarlo el 7 ya esta tambien 
