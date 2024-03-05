@@ -27,8 +27,9 @@ public class Edificio {
             case 2:
              Eliminar();  //funcion para eliminar visita
              break;
-                
-            default://salida del programa
+            case 3:
+                Modificar();
+                break;
                 
         }
     }while(opcion!=3);
@@ -42,6 +43,14 @@ public class Edificio {
      Scanner teclado = new Scanner(System.in);
      System.out.print("Ingrese su nombre completo:  ");
       nombre = teclado.nextLine();//metodo para leer la variable
+      String sexo ;
+      Scanner ingresar = new Scanner(System.in);
+      System.out.println("diganos su sexo de nacimiento");//ingreso de sexo
+      sexo = ingresar.nextLine();
+      String Cumpleaños;
+      Scanner cumple = new Scanner(System.in);
+      System.out.println("ingrese su fecha de nacimiento (dd/mm/aa)");//ingreso de fecha de nacimiento
+      Cumpleaños = cumple.nextLine();
       System.out.println("Nombre del visitante " + nombre);
      listado.add(1010);//DNI'S ya registrados 
      listado.add(2020);
@@ -65,6 +74,9 @@ public class Edificio {
      System.out.println("lista; "+listado);//listado de visitantes actuales 
     }
       static void Eliminar() {
+     
+     }
+        static void Modificar() {
      
      }
 }
