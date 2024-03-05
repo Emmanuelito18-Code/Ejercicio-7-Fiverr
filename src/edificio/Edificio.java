@@ -17,7 +17,7 @@ public class Edificio {
     do{    //menu principal
     System.out.println("Bienvenido a la resepcion del edificio ");
     System.out.println("que desea hacer");
-    System.out.println("1- registrar entrada           2- marcar salida          3-salir del progrma");
+    System.out.println("1- registrar entrada           2- marcar salida       3-modificar datos       4-salir del progrma");
     System.out.println("digite el numero de la operacion");
     opcion=scanner.nextInt();//ingreso de funcion a realizar
         switch(opcion){
