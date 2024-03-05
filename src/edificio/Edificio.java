@@ -22,13 +22,13 @@ public class Edificio {
     opcion=scanner.nextInt();//ingreso de funcion a realizar
         switch(opcion){
             case 1:
-                registro();//funcion para ingresar datos del visitante
+                registro();//llamado de funcion para ingresar datos del visitante
                 break;
             case 2:
-             Eliminar();  //funcion para eliminar visita
+             Eliminar();  //llamado defuncion para eliminar visita
              break;
             case 3:
-                Modificar();
+                Modificar(); //llamado de funcion para modificar datos 
                 break;
                 
         }
@@ -52,8 +52,8 @@ public class Edificio {
       System.out.println("ingrese su fecha de nacimiento (dd/mm/aa)");//ingreso de fecha de nacimiento
       Cumpleaños = cumple.nextLine();
       System.out.println("Nombre del visitante " + nombre);
-     listado.add(1010);//DNI'S ya registrados 
-     listado.add(2020);
+     listado.add(10101010);//DNI'S ya registrados 
+     listado.add(20202020);
      int min, hora, dia, mes, anno;//variantes de fecha y hora local
      String FechaActual, HoraActual;//cadena de hora y fecha
      hora = Hora.get(Calendar.HOUR_OF_DAY);//llamado de hora del sistema
