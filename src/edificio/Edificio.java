@@ -13,13 +13,13 @@ public class Edificio {
   static Scanner scanner =new Scanner(System.in);
     
   public static void main (String[] args ){
-    int cont = 0;
+    int opcion = 0;
     do{    
     System.out.println("Bienvenido a la resepcion del edificio ");
     System.out.println("que desea hacer");
     System.out.println("1- registrara entrada           2- marcar salida          3-salir del progrma");
     System.out.println("digite el numero de la operacion");
-    int opcion=scanner.nextInt();
+    opcion=scanner.nextInt();
         switch(opcion){
             case 1:
                 registro();
@@ -62,6 +62,6 @@ public class Edificio {
       static void Eliminar() {
      
      }
-      return main ;
 }
+
 
